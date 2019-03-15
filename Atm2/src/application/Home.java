@@ -149,7 +149,7 @@ public void prepareScene() {
 			output.setText("Balance Inquiry :"+atm.balance);
 		});
 		previous.setOnAction(event -> {
-			if(counter==0) {
+			if(counter<0) {
 				output.setText("No history to show");
 				}
 			else {
