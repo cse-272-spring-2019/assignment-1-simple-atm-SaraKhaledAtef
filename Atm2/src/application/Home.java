@@ -31,7 +31,7 @@ public void prepareScene() {
 	 Button getBalance =new Button("Blance Inquiry");
 	 Button previous =new Button("Previous Transaction");
 	 Button next =new Button("Next Transaction");
-	 TextField numberField = new TextField();
+	 TextField numberField = new TextField(null);
      Button num0 =new Button("0");
 	 Button num1 =new Button("1");
 	 Button num2 =new Button("2");
